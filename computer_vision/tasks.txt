@@ -1,0 +1,27 @@
+Analyze labels distribution
+!! Read images and labels and display images
+Use only the non-multiclass samples  in the training
+
+Train a baseline model
+!! Train a pretrained model
+
+!! Generate saliency maps to check whether the model uses correct spots to
+classify images
+
+!! Save generated images in separate folders and check whether they are correctly
+generated
+
+Add augmentations
+
+Analyze performance in tensorboard
+
+!! Check whether you can detect diseases manually - use opencv functions to detect edges, blobs, itp.
+
+Change images to grayscale and check the difference in results
+
+Compute mean and std by hand
+!! Use commonly used mean and std
+
+Use smart resize
+
+Use class weights
